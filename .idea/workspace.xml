@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45fc7d8-e071-43dc-a050-82fa1f0cc7c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day2/ArrayShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/ArrayShiftTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/ArrayBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/D01_ArrayReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/D01_ArrayReverseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/day2/ArrayShift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/day2/ArrayShift.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +27,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayReverseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayReverseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day1/ArrayReverseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayBinarySearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day3/ArrayBinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchIterativeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +60,8 @@
       <file leaf-file-name="ArrayShift.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day2/ArrayShift.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -48,8 +69,8 @@
       <file leaf-file-name="ArrayShiftTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day2/ArrayShiftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="60">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -78,13 +99,15 @@
         <option value="$PROJECT_DIR$/src/day2/ArrayShift.java" />
         <option value="$PROJECT_DIR$/src/day2/ArrayShiftTest.java" />
         <option value="$PROJECT_DIR$/src/day1/ArrayReverse.java" />
+        <option value="$PROJECT_DIR$/src/day3/ArrayBinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java" />
+        <option value="$PROJECT_DIR$/src/day3/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="720" />
-    <option name="height" value="878" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="718" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -94,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -119,12 +144,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,6 +167,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day3" />
       <recent name="day2" />
       <recent name="" />
     </key>
@@ -157,18 +187,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BinarySearchIterativeTest.numberSearchTwo">
+    <configuration name="BinarySearchIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.BinarySearchIterative" />
+      <module name="data-structures-and-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BinarySearchMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.BinarySearchMethod" />
+      <module name="data-structures-and-algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ArrayReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchIterativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="day1" />
-      <option name="MAIN_CLASS_NAME" value="day1.ArrayReverseTest" />
+      <option name="PACKAGE_NAME" value="day3" />
+      <option name="MAIN_CLASS_NAME" value="day3.BinarySearchIterativeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinarySearchIterativeTest.numberSearchOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="day3" />
+      <option name="MAIN_CLASS_NAME" value="day3.BinarySearchIterativeTest" />
+      <option name="METHOD_NAME" value="numberSearchOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BinarySearchIterativeTest.numberSearchTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="day3" />
+      <option name="MAIN_CLASS_NAME" value="day3.BinarySearchIterativeTest" />
+      <option name="METHOD_NAME" value="numberSearchTwo" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -216,6 +320,22 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.BinarySearchMethod" />
+      <item itemvalue="Application.BinarySearchIterative" />
+      <item itemvalue="JUnit.BinarySearchIterativeTest" />
+      <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchOne" />
+      <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchTwo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchTwo" />
+        <item itemvalue="JUnit.BinarySearchIterativeTest" />
+        <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchOne" />
+        <item itemvalue="Application.BinarySearchIterative" />
+        <item itemvalue="Application.BinarySearchMethod" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -231,73 +351,134 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 17m 21s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest_numberSearchOne - 2018.07.11 at 19h 17m 22s.xml">
+      <configuration name="BinarySearchIterativeTest.numberSearchOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 17m 58s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest - 2018.07.11 at 19h 17m 41s.xml">
+      <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 18m 37s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest_numberSearchOne - 2018.07.11 at 19h 18m 00s.xml">
+      <configuration name="BinarySearchIterativeTest.numberSearchOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 20m 09s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest - 2018.07.11 at 19h 18m 23s.xml">
+      <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 20m 20s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest - 2018.07.11 at 19h 18m 47s.xml">
+      <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 20m 26s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest - 2018.07.11 at 19h 19m 13s.xml">
+      <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 21m 22s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest - 2018.07.11 at 19h 21m 45s.xml">
+      <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 22m 02s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest - 2018.07.11 at 19h 22m 06s.xml">
+      <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 23m 49s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest_numberSearchOne - 2018.07.11 at 19h 22m 24s.xml">
+      <configuration name="BinarySearchIterativeTest.numberSearchOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayReverseTest - 2018.07.10 at 18h 20m 28s.xml">
-      <configuration name="ArrayReverseTest" configurationId="JUnit" />
+    <history-entry file="BinarySearchIterativeTest_numberSearchTwo - 2018.07.11 at 19h 25m 40s.xml">
+      <configuration name="BinarySearchIterativeTest.numberSearchTwo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="720" height="878" extended-state="0" />
+    <frame x="0" y="0" width="718" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900944" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329602" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2827298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2827298" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/day1/ArrayReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2/ArrayShift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2/ArrayShiftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/ArrayReverseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day1/ArrayReverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -356,15 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day2/ArrayShift.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2/ArrayShiftTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -375,10 +549,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2/ArrayShiftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day1/ArrayReverseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="284" selection-start-line="4" selection-start-column="284" selection-end-line="4" selection-end-column="284" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3/ArrayBinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
