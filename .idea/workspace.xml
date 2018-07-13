@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c45fc7d8-e071-43dc-a050-82fa1f0cc7c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day4/ArrayAdjacentProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" afterDir="false" />
-    </list>
+    <list default="true" id="c45fc7d8-e071-43dc-a050-82fa1f0cc7c4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +58,9 @@
         <entry file="file://$PROJECT_DIR$/src/day4/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -115,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/day2/ArrayShift.java" />
         <option value="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" />
         <option value="$PROJECT_DIR$/src/day4/ArrayAdjacentProductTest.java" />
+        <option value="$PROJECT_DIR$/src/day4/README.md" />
       </list>
     </option>
   </component>
@@ -174,6 +173,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day4" />
       <recent name="day3" />
       <recent name="day2" />
       <recent name="" />
@@ -413,7 +413,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -686,7 +686,9 @@
     <entry file="file://$PROJECT_DIR$/src/day4/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
