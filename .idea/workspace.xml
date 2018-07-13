@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45fc7d8-e071-43dc-a050-82fa1f0cc7c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day3/ArrayBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/day2/ArrayShift.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2/ArrayShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/ArrayShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/ArrayAdjacentProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BinarySearchIterativeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchIterativeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
+            <state relative-caret-position="105">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,8 +40,30 @@
       <file leaf-file-name="ArrayAdjacentProduct.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayAdjacentProductTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day4/ArrayAdjacentProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day4/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,8 +112,9 @@
         <option value="$PROJECT_DIR$/src/day3/ArrayBinarySearch.java" />
         <option value="$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java" />
         <option value="$PROJECT_DIR$/src/day3/README.md" />
-        <option value="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" />
         <option value="$PROJECT_DIR$/src/day2/ArrayShift.java" />
+        <option value="$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java" />
+        <option value="$PROJECT_DIR$/src/day4/ArrayAdjacentProductTest.java" />
       </list>
     </option>
   </component>
@@ -175,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchIterativeTest">
+  <component name="RunManager" selected="JUnit.ArrayAdjacentProductTest">
     <configuration name="BinarySearchIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day3.BinarySearchIterative" />
       <module name="data-structures-and-algorithms" />
@@ -187,19 +206,31 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BinarySearchMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day3.BinarySearchMethod" />
-      <module name="data-structures-and-algorithms" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ArrayAdjacentProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day3.*" />
+          <option name="PATTERN" value="day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="day4" />
+      <option name="MAIN_CLASS_NAME" value="day4.ArrayAdjacentProductTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="BinarySearchIterativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
@@ -309,19 +340,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearchMethod" />
       <item itemvalue="Application.BinarySearchIterative" />
       <item itemvalue="JUnit.BinarySearchIterativeTest" />
       <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchOne" />
       <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchTwo" />
+      <item itemvalue="JUnit.ArrayAdjacentProductTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayAdjacentProductTest" />
         <item itemvalue="JUnit.BinarySearchIterativeTest" />
         <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchTwo" />
         <item itemvalue="JUnit.BinarySearchIterativeTest.numberSearchOne" />
         <item itemvalue="Application.BinarySearchIterative" />
-        <item itemvalue="Application.BinarySearchMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -339,9 +370,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchIterativeTest - 2018.07.11 at 19h 17m 41s.xml">
-      <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchIterativeTest_numberSearchOne - 2018.07.11 at 19h 18m 00s.xml">
       <configuration name="BinarySearchIterativeTest.numberSearchOne" configurationId="JUnit" />
     </history-entry>
@@ -369,6 +397,9 @@
     <history-entry file="BinarySearchIterativeTest - 2018.07.12 at 19h 48m 18s.xml">
       <configuration name="BinarySearchIterativeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayAdjacentProductTest - 2018.07.13 at 12h 38m 05s.xml">
+      <configuration name="ArrayAdjacentProductTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -382,12 +413,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5013928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5013889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -611,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day2/ArrayShift.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day3/ArrayBinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -625,20 +649,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/day2/ArrayShift.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day3/BinarySearchIterativeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
+        <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4/ArrayAdjacentProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4/ArrayAdjacentProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
