@@ -1,5 +1,8 @@
 package day6;
 
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
 import java.util.List;
 
 public class LinkedList {
@@ -73,5 +76,25 @@ public class LinkedList {
             tmp.next = l;
         }
 
+    }
+
+    public void addBefore(int el, int n) {
+        ListNode newNode = new ListNode(n);
+
+        if (null == root || newNode.data == root.data) {
+            append(el);
+        } else {
+            ListNode parent = null;
+            ListNode current = this.root;
+            while (null != current && current.data != newNode.data) {
+                parent = current;
+                current = current.next;
+            }
+            if (null != current) {
+                current.next = new ListNode(newNode.data);
+            } else {
+                prepend(el);
+            }
+        }
     }
 }

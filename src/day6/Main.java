@@ -9,6 +9,7 @@ public class Main {
         ll.append(55);
         ll.prepend(69);
         ll.append(99);
+        ll.addBefore(12, 22);
 
         ll.print();
 
