@@ -19,14 +19,10 @@ public class ArrayShift {
             if (i < tempA.length) {
                 tempA[i] = firstArr[i];
             } else {
-                tempB[i - tempA.length] = firstArr [i];
+                tempB[i - tempA.length] = firstArr[i];
             }
 
 
         }
-        System.out.println(Arrays.toString(tempA));
-        System.out.println(newVal);
-        System.out.println(Arrays.toString(tempB));
-        System.out.println(Arrays.toString(tempA) + newVal + (Arrays.toString(tempB)));
     }
 }
