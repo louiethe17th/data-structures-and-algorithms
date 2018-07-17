@@ -11,7 +11,7 @@ class BinarySearchIterativeTest {
         int[] arr = {4,8,15,16,23,42};
         int low = 0;
         int high = arr.length - 1;
-        int value = 15;
+        int value = 23;
         int expected = 4;
         int result = ArrayBinarySearch.BinarySearch(arr, value, low, high);
 
