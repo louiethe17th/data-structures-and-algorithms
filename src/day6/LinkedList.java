@@ -53,14 +53,14 @@ public class LinkedList {
             System.out.print("<");
             while (temp != null) {
                 if (temp == this.root) {
-                    System.out.print("[" + temp.data + "]" + "--");
+                    System.out.print(" root-> [" + temp.data + "]" + "--");
                 } else {
                     System.out.print("[" + temp.data + "]");
                     System.out.print("--");
                 }
                 temp = temp.next;
             }
-            System.out.print("[end]>");
+            System.out.print("[end] >");
         }
     }
 
@@ -78,23 +78,37 @@ public class LinkedList {
 
     }
 
-    public void addBefore(int el, int n) {
-        ListNode newNode = new ListNode(n);
+    public void addBefore(int target, int value) {
+        ListNode node = new ListNode(value);
+        ListNode current = this.root;
 
-        if (null == root || newNode.data == root.data) {
-            append(el);
-        } else {
-            ListNode parent = null;
-            ListNode current = this.root;
-            while (null != current && current.data != newNode.data) {
-                parent = current;
+        if (this.root.data == target) {
+            this.prepend(value);
+        }
+
+        while (current.next.data != target) {
                 current = current.next;
             }
-            if (null != current) {
-                current.next = new ListNode(newNode.data);
-            } else {
-                prepend(el);
-            }
+
+            node.next = current.next;
+            current.next = node;
+
         }
+
+
+
+    public void insertAfter(int needle, int newValue) {
+        ListNode node = new ListNode(newValue);
+        ListNode current = this.root;
+        while (current.data  != needle) {
+            if (current.data == needle) {
+                current = current.next;
+            }
+
+            node.next = current.next;
+            current.next = node;
+
+        }
+
     }
 }
