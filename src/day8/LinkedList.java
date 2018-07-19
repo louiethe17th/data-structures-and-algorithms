@@ -134,7 +134,8 @@ public class LinkedList {
             longestList = bLength;
         }
 
-        for(int i = 1; i < longestList; i++){
+        for(int i = 0; i < longestList; i++){
+
             mergedList.append(current2.data);
             current2 = current2.next;
             mergedList.print();
