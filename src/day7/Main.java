@@ -12,7 +12,7 @@ public class Main {
         ll.prepend(69);
         ll.append(99);
         ll.addBefore(12, 22);
-        ll.kthElement(3);
+        ll.kthElement(5);
         ll.print();
 
         if (ll.isEmpty()) {
