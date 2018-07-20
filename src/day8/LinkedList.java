@@ -45,24 +45,32 @@ public class LinkedList {
         return current.data;
     }
 
-    public void print() {
+    public String print() {
+        String goodOutput = "";
         if (root == null) {
             System.out.print("<");
             System.out.print(">");
+            String output = "<>";
+            return output;
         } else {
             ListNode temp = root;
             System.out.print("<");
+            goodOutput = "<";
             while (temp != null) {
                 if (temp == this.root) {
                     System.out.print("[" + temp.data + "]" + "--");
+                    goodOutput = goodOutput + "[" + temp.data + "]" + "--";
                 } else {
                     System.out.print("[" + temp.data + "]");
                     System.out.print("--");
+                    goodOutput = goodOutput + "[" + temp.data + "]" + "--";
                 }
                 temp = temp.next;
             }
             System.out.print("[end]>\n");
+            goodOutput = goodOutput + "[end]>\n";
         }
+        return goodOutput;
     }
 
     public void append(int data) {
@@ -119,9 +127,14 @@ public class LinkedList {
         ListNode current1 = a.root;
         ListNode current2 = b.root;
 
+
+
+//        if(a.root != null || b.root != null) {
+
+
+
         mergedList.append(current1.data);
 
-        mergedList.print();
 
         int aLength = a.size();
         int bLength = b.size();
@@ -134,15 +147,31 @@ public class LinkedList {
             longestList = bLength;
         }
 
+
+
         for(int i = 0; i < longestList; i++){
 
-            mergedList.append(current2.data);
-            current2 = current2.next;
-            mergedList.print();
-            mergedList.append(current1.next.data);
-            current1 = current1.next;
-            mergedList.print();
+            if(current1 == a.root){
+                current1 = current1.next;
             }
+
+            if(current2 != null) {
+                mergedList.append(current2.data);
+                current2 = current2.next;
+            } else{
+                break;
+            } if (current1 != null) {
+                mergedList.append(current1.data);
+                current1 = current1.next;
+                } else{
+                 break;
+            }
+
+
+
+            }
+
+
 
         return mergedList;
 

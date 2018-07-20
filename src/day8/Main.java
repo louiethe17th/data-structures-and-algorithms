@@ -4,18 +4,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList();
         LinkedList kk = new LinkedList();
         LinkedList nn = new LinkedList();
-        ll.prepend(8);
-        ll.prepend(34);
-        ll.prepend(12);
-        ll.append(55);
-        ll.prepend(69);
-        ll.append(99);
-        ll.addBefore(12, 22);
-        ll.kthElement(3);
-        ll.print();
+
 
         kk.prepend(1);
         kk.prepend(22);
@@ -29,15 +20,13 @@ public class Main {
 
         nn.print();
 
-        LinkedList newy = new LinkedList();
+        LinkedList mergyBoi = new LinkedList();
 
-        newy.mergeLists(kk, nn);
-        newy.print();
+        mergyBoi = mergyBoi.mergeLists(kk, nn);
+        mergyBoi.print();
 
 
-        if (ll.isEmpty()) {
-            System.out.println();
-        }
+
 
     }
 }
