@@ -59,7 +59,7 @@ public class LinkedList {
                 }
                 temp = temp.next;
             }
-            System.out.print("[end]>");
+            System.out.print("[end]>\n");
         }
     }
 
@@ -97,11 +97,19 @@ public class LinkedList {
         }
     }
 
-    public void kthElement (int k) {
+    public int kthElement (int k) {
         int length = this.size();
+
+        if (length <= 0){
+            System.out.println("LL is empty");
+            return 0;
+        }
+
 
         if(length<k){
             System.out.println("the K is longer than the list");
+            return 0;
+
         }
 
         ListNode temp = this.root;
@@ -110,5 +118,7 @@ public class LinkedList {
             temp = temp.next;
         }
         System.out.println("The kTh element from the end is: " + temp.data);
+
+        return temp.data;
     }
 }
