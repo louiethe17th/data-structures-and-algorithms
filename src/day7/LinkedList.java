@@ -43,24 +43,32 @@ public class LinkedList {
         return current.data;
     }
 
-    public void print() {
+    public String print() {
+        String goodOutput = "";
         if (root == null) {
             System.out.print("<");
             System.out.print(">");
+            String output = "<>";
+            return output;
         } else {
             ListNode temp = root;
             System.out.print("<");
+            goodOutput = "<";
             while (temp != null) {
                 if (temp == this.root) {
                     System.out.print("[" + temp.data + "]" + "--");
+                    goodOutput = goodOutput + "[" + temp.data + "]" + "--";
                 } else {
                     System.out.print("[" + temp.data + "]");
                     System.out.print("--");
+                    goodOutput = goodOutput + "[" + temp.data + "]" + "--";
                 }
                 temp = temp.next;
             }
             System.out.print("[end]>\n");
+            goodOutput = goodOutput + "[end]>\n";
         }
+        return goodOutput;
     }
 
     public void append(int data) {
