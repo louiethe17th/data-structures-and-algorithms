@@ -43,7 +43,7 @@ class LinkedListTest {
     @Test
     void kthElementLongerEmptyLL() {
         LinkedList ll = new LinkedList();
-        
+
 
         int expected = 0;
 
