@@ -12,8 +12,8 @@ class Pet {
         return "";
     }
 
-    public String toString() {
-        return this.name + " " + this.sound;
-    }
+//    public String toString() {
+//        return this.name + " " + this.sound;
+//    }
 
 }
