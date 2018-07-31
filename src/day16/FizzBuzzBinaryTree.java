@@ -4,21 +4,13 @@ import day16.TreeNode;
 
 public  class FizzBuzzBinaryTree {
 
-    TreeNode root = null;
 
     public static String FizzBuzzTree (TreeNode current) {
 
 
-        while (current != null) {
-            //Move left if there is a node
-            if(current.left != null) {
-                FizzBuzzTree(current.left);
-            }
-            //mode right if there is a node
-            if (current.right != null) {
-                FizzBuzzTree(current.right);
-            }
-            //checks to see if value is fizz or buzz or fizzbuzz
+        if (current != null) {
+            FizzBuzzTree(current.left);
+            FizzBuzzTree(current.right);
             fizzyBoi(current.data);
         }
         return null;
