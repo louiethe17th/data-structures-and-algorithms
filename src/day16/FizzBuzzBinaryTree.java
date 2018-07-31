@@ -1,11 +1,8 @@
 package day16;
 
-import day16.TreeNode;
+public class FizzBuzzBinaryTree {
 
-public  class FizzBuzzBinaryTree {
-
-
-    public static String FizzBuzzTree (TreeNode current) {
+    public static void FizzBuzzTree (TreeNode current) {
 
 
         if (current != null) {
@@ -13,17 +10,18 @@ public  class FizzBuzzBinaryTree {
             FizzBuzzTree(current.right);
             fizzyBoi(current.data);
         }
-        return null;
     }
 
     public static void fizzyBoi(int value) {
 
-        if(value % 3 == 0 && value % 5 == 0) {
-            System.out.println(value + " FizzBuzz");
+        if(value % 15 == 0) {
+            System.out.println("FizzBuzz");
         } else if (value % 3 == 0) {
-            System.out.println(value + " Fizz");
+            System.out.println("Fizz");
         } else if (value % 5 == 0) {
-            System.out.println(value + " Buzz");
+            System.out.println("Buzz");
+        } else {
+            System.out.println(value);
         }
     }
 }

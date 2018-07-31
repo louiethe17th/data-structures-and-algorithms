@@ -3,25 +3,15 @@ package day16;
 public class Main {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
-        TreeNode n53 = new TreeNode(53);
+        tree.add(21);
+        tree.add(12);
+        tree.add(56);
+        tree.add(10);
+        tree.add(1);
+        tree.add(3);
+        tree.add(75);
+        tree.add(5);
 
-        TreeNode n18 = new TreeNode(18);
-        TreeNode n12 = new TreeNode(12);
-        TreeNode n24 = new TreeNode(24);
-
-        TreeNode n75 = new TreeNode(75);
-        TreeNode n66 = new TreeNode(66);
-        TreeNode n99 = new TreeNode(99);
-
-// connect nodes
-        tree.root = n53;
-        n53.left = n18;
-        n18.left = n12;
-        n18.right = n24;
-
-        n53.right = n75;
-        n75.left = n66;
-        n75.right = n99;
 
         FizzBuzzBinaryTree.FizzBuzzTree(tree.root);
 
